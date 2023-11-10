@@ -1,0 +1,15 @@
+/* ----- RESET ------------ */
+@import url("reset.css");
+/* ----- FONTS ----------- */
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+/* ------COMMON------- */
+@import url("common.css");
+/* ------HEADER------- */
+@import url("header.css");
+/* ------FOOTER------- */
+@import url("footer.css");
+/* ------HomePage------- */
+@import url("homepage.css");
+/* ------ArticlePage------- */
+@import url("article.css");

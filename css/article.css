@@ -1,0 +1,145 @@
+.article__big-post {}
+
+/* --------------- */
+.article__content {
+  padding: 100px 0;
+}
+
+.article__container {
+  display: grid;
+  align-items: start;
+  gap: 20px;
+  grid-template-columns: 200px 1fr 200px;
+}
+
+.article__info {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 12px;
+  line-height: 208.33%;
+  font-weight: 700;
+}
+
+.article__date {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.article__date::after {
+  content: '';
+  height: 1px;
+  width: 35px;
+  background-color: #c4c4c4;
+}
+
+.article__time {}
+
+.article__body {
+  display: grid;
+  gap: 50px;
+}
+
+.artilce__text {
+  display: grid;
+  gap: 30px;
+  line-height: 178.57%;
+}
+
+.artilce__text blockquote {
+  color: #d4a373;
+  font-size: 36px;
+  line-height: 127.7%;
+  font-weight: 700;
+}
+
+.article__tags {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-bottom: 0.5px solid #c4c4c4;
+  padding-bottom: 50px;
+}
+
+.article__tag {
+  color: #6C757D;
+  border: 1px solid #E5E5E5;
+}
+
+.article__tag:hover {
+  background-color: #E5E5E5;
+}
+
+.article__author {}
+
+.author {
+  display: flex;
+  gap: 17px;
+}
+
+.author__avatar {
+  flex: 0 0 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.author__body {
+  display: grid;
+  align-self: center;
+  font-size: 12px;
+  gap: 8px;
+}
+
+.author__title {
+  color: #343A40;
+  font-weight: 700;
+}
+
+.author__skills {
+  color: #6c757d;
+}
+
+@media (max-width: 991.98px) {
+  .article__content {
+    padding: 70px 0;
+  }
+
+  .article__container {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .article__body {
+    gap: 30px;
+  }
+
+  .article__tags {
+    padding-bottom: 30px;
+  }
+
+  .article__text {
+    gap: 15px;
+  }
+
+  .article__text blockquote {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .article__content {
+    padding: 40px 0;
+  }
+
+  .article__container {
+    grid-template-columns: auto;
+  }
+}
+
+/* --------------- */
+.article__related {
+  background-color: rgba(229, 229, 229, 0.30);
+}
+
+/* --------------- */
